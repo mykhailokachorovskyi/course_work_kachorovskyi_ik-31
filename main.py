@@ -5,7 +5,6 @@ from config import token
 from telebot import types
 
 
-
 def telegram_bot():
     bot = telebot.TeleBot(token)
     response = requests.get(config.url).json()
